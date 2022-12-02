@@ -15,7 +15,7 @@ body {
   margin: 3.5rem 0 0 0;
   font-family: "Poppins", sans-serif;
   font-size: 0.938rem;
-  background: linear-gradient(100deg, #6f0599e0 0%, #d30b8685 50%);
+  background: linear-gradient(100deg, #000000e0 0%, #0f0f0f85 50%);
   color: #fff;
 }
 
@@ -122,7 +122,7 @@ button {
   .navM {
     position: fixed;
     width: 100%;
-    background: #045a8b;
+    background: #343536;
     top: -150%;
     left: 0;
     padding: 3.5rem 0;
@@ -164,7 +164,7 @@ button {
 
 /* Change background header */
 .scroll-header {
-  background:#045a8b;
+  background:#2d2f30;
 }
 
 /* Active link */
@@ -262,7 +262,7 @@ video{
 }
 
 .button:hover {
-    background-color:#045a8b;
+    background-color:#2d2f30;
 }
 
 
@@ -326,7 +326,7 @@ video{
 
 .productcontent{
     position: relative;
-    background: #045a8b;
+    background: #2d2f30;
     border-radius: 1rem;
     padding: 1.5rem 0 1rem 0;
     text-align: center;
@@ -381,7 +381,7 @@ video{
 
 /*DESCUENTO*/
 .discountcontainer {
-    background:#045a8b;
+    background:#2d2f30;
     border-radius: 1rem;
     padding: 2.5rem 0 1.5rem;
     row-gap: .75rem;
@@ -414,7 +414,7 @@ video{
 
 .newcontent {
     position: relative;
-    background:#045a8b;
+    background:#2d2f30;
     width: 242px;
     padding: 2rem 0 1.5rem 0;
     border-radius: .75rem;
@@ -508,7 +508,7 @@ video{
 
 .button2 {
     display:flow-root;
-    background: #0c4622;
+    background: #145677;
     color: #fff;
     padding: 0.5rem 6rem;
     border-radius: 900rem;
@@ -555,7 +555,7 @@ video{
 
 .footersocial-link {
     display: inline-flex;
-    background: #000c32;
+    background: #145677;
     padding: .25rem;
     border-radius: .25rem;
     color: #fff;
@@ -877,7 +877,68 @@ video{
     .swiper-pagination {
         margin-top: 2.5rem;
     }
+}
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400em;
 
+    animation: cambio 20s infinite alternate linear;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio {
+    0% {margin-left:0;}
+    20% {margin-left:0;}
 
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
 
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+
+    75% {margin-left:-300%;}
+    100% {margin-left:-300%;}
+}
+.homegroup{
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+.homegroup ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: cambio 20s infinite alternate linear;
+}
+.homegroup li{
+    width: 200%;
+    list-style: none;
+}
+.homegroup img{
+    width: 95%;
+}
+@keyframes cambio {
+    0% {margin-left:0;}
+    20% {margin-left:0;}
+
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+
+    75% {margin-left:-300%;}
+    100% {margin-left:-300%;}
 }
