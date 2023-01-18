@@ -1,306 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img//favicon2.png" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive burger website design tutorial</title>
 
-    <title>Diseño de modas Cathe Garcia</title>
-  </head>
-  <body>
-    <!--Header-->
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="" class="navL">
-          <img src="img/2472867.png" alt="favicon" class="navL-img" />
-        DISEÑO DE MODA  
-        </a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-        <div class="navM" id="nav-menu">
-          <ul class="navList">
-            <li class="navItem">
-              <a href="#home" class="navLink active-link"> Inicio</a>
-            </li>
-            <li class="navItem">
-              <a href="#category" class="navLink"> Categorias </a>
-            </li>
-            <li class="navItem">
-              <a href="#product" class="navLink"> Productos </a>
-            </li>
-            <li class="navItem">
-              <a href="#new" class="navLink"> Promociones </a>
-            </li>
-          </ul>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
 
-          <div class="navclose" id="nav-close">
-            <i class="bx bx-x"></i>
-          </div>
-        </div>
+</head>
+<body>   
 
-        <div class="navToggle" id="nav-toggle">
-          <i class="bx bx-grid-alt"></i>
-        </div>
-      </nav>
-    </header>
+<!-- header section starts  -->
 
-    <main class="main">
-      <!--HOME-->
-      <section class="home container" id="home">
-        <div class="swiper home-swiper">
-          <div class="swiper-wrapper">
-            <section>
-              <div class="homecont grid">
-                <div class="homedata">
-                  <h1 class="hometitle">Cathe Garcia</h1>
-                  <p class="homedes">
-                    Empresa de confecciones y estampados<br/>Enfocada en hacer realidad los sueños de sus clientes con buenos precios, excelente calidad y diversidad de productos.
-                  </p>
-                </div>
-                <div class="homegroup">
-                  <ul>
-                    <li><img src="img/WhatsApp Image 2022-11-22 at 3.03.13 PM.jpeg" alt=""></li>
-                    <li><img src="img/WhatsApp Image 2022-11-22 at 3.05.03 PM.jpeg" alt=""></li>
-                    <li><img src="img/WhatsApp Image 2022-11-22 at 3.05.51 PM.jpeg" alt=""></li>
-                  </ul>               
-              </div>
-            </section>
-          </div>
-        </div>
-      </section>
+<header class="header">
 
-      <!--CATEGORY-->
-      <section class="section category"id="category">
-        <h2 class="sectiontitle">
-          Nuestras <br />
-          Categorias
-        </h2>
+   <div id="menu-btn" class="fas fa-bars icons"></div>
+   <a href="https://instagram.com/lusanbeauty04?igshid=Zjc2ZTc4Nzk=" class="fas fa-eye icons"></a>
 
-        <div class="categorycontainer container grid">
-          <div class="categorydata">
-            <img src="img/categoria1.png" alt="" />
-            <h3 class="categorytitle">Vestidos y trajes para fechas especiales</h3>
-            <p class="categorydescription">
-             Bodas, Bautizos, Halloween, Eventos u otros.  
-            </p>
-          </div>
+   <nav class="navbar">
+      <a href="#home">Inicio</a>
+      <a href="#menu">Productos</a>
+      <a href="#about">Consulta</a>
+      <span class="space"></span>
+      <a href="#reviews">Servicios</a>
+      <a href="#contact">contacto</a>
+      <a href="#blogs">blogs</a>
+   </nav>
 
-          <div class="categorydata">
-            <img src="img/dotaciones.png" alt="" />
-            <h3 class="categorytitle">Dotaciones y uniformes antifluidos</h3>
-            <p class="categorydescription">
-              Uniformes para negocios y empresas, los cuales requieren de equipamento especial para sus colaboradores.
-            </p>
-          </div>
+   <a href="#contact" class="fas fa-shopping-cart icons"></a>
 
-          <div class="categorydata">
-            <img src="img/categoria3.png" alt="" />
-            <h3 class="categorytitle">Estampados</h3>
-            <p class="categorydescription">
-              Estampados de mug y prendas, para eventos detalles u otras festividades.
-            </p>
-          </div>
+   <a href="#home" class="logo"><img src="images/logo.png" alt=""></a>
 
-          <div class="categorydata">
-            <img src="img/categoria2.png" alt="" />
-            <h3 class="categorytitle">Diseño de modas y confecciones</h3>
-            <p class="categorydescription">
-              Diseño y personalización de prendas, vestidos y trajes para distintos eventos.
-            </p>
-          </div>
-        </div>
-      </section>
 
-      <!--ABOUT-->
-      <section class="section about" id="about">
-        <div class="aboutcontainer container grid">
-          <img src="img/favicon1.png" alt="" class="aboutimg" />
-          <div class="aboutdata">
-            <h2 class="sectiontitle abouttitle">Nosotros pensamos <br/> En lo que te conviene</h2>
-            <p class="aboutdescription">
-              La ropa no es soló un atuendo, es un filosofía que haremos realidad
-            </p>
-            <a href="https://api.whatsapp.com/send?phone=+573138149514&text=Buen%20d%C3%ADa%20estoy%20interesado%20en%20cofecciones%20o%20estampados%20de%20JNC,%20agradezco%20te%20puedas%20comunicar%20conmigo%20para%20m%C3%A1s%20informaci%C3%B3n.%20" class="button"> Escríbenos </a>
-          </div>
-        </div>
-      </section>
+</header>
 
-      <!--PRODUCTS-->
-      <section class="section product" id="product">
-        <h2 class="sectiontitle">Productos</h2>
+<!-- header section ends  -->
 
-        <div class="productcontainer container grid">
-          <div class="productcontent">
-            <img src="img/productos3.png" alt="" class="productimg" />
-            <h3 class="producttitle">Vestidos y trajes</h3>
-            <span class="productsubtitle">15 años, Bodas, Bautizos, Halloween u otros eventos</span>
-          </div>
-          <div class="productcontent">
-            <img src="img/productos4.png" alt="" class="productimg" />
-            <h3 class="producttitle">Uniformes antifluidos</h3>
-            <span class="productsubtitle">Dotaciones empresariales o personzalidos para varias profesiones </span>
-          </div>
-          <div class="productcontent">
-            <img src="img/productos5.png" alt="" class="productimg" />
-            <h3 class="producttitle">Estampados para prendas</h3>
-            <span class="productsubtitle">Personalizados</span>
-          </div>
-          <div class="productcontent">
-            <img src="img/productos6.png" alt="" class="productimg" />
-            <h3 class="producttitle">Estampados para mug</h3>
-            <span class="productsubtitle">Para detalles y eventos</span>
-          </div>
-        </div>
-      </section>
+<!-- home section starts  -->
 
-      <!--DESCUENTO-->
-      <section class="section discount">
-        <div class="discountcontainer container grid">
-          <div class="discountdata">
-            <h2 class="discounttitle">Ofrecemos Descuentos <br/>Solicitá más información</h2>
-            <a href="https://api.whatsapp.com/send?phone=+573138149514&text=Buen%20d%C3%ADa%20estoy%20interesado%20en%20cofecciones%20o%20estampados%20de%20JNC,%20agradezco%20te%20puedas%20comunicar%20conmigo%20para%20m%C3%A1s%20informaci%C3%B3n.%20" class="button">Vamos</a>
-          </div>
-          <img src="img/favicon2.png" alt="" class="discountimg" />
-        </div>
-      </section>
+<section class="home" id="home">
 
-      <!--LO NUEVO-->
-      <section class="section new" id="new">
-        <h2 class="sectiontitle">Promociones</h2>
+   <div class="content">
+      <img data-aos="fade-up" data-aos-delay="150" src="images/burger-baner.png" alt="">
+      <h3 data-aos="fade-up" data-aos-delay="300">Bienvenidos</h3>
+      <p data-aos="fade-up" data-aos-delay="450">Buscamos una experiencia innovadora, para que recibas productos y servicios de belleza, desde la comodidad de tu hogar.</p>
+      <a data-aos="fade-up" data-aos-delay="600" href="#menu" class="btn">Productos</a>
+      <a data-aos="fade-up" data-aos-delay="600" href="#reviews" class="btn">Servicios</a>
+   </div>
 
-        <div class="newcontainer container">
-          <div class="swiper new-swiper">
-            <div class="swiper-wrapper">
-              <div class="newcontent swiper-slide">
-                <div class="newtag">Cotiza</div>
-                <img src="img/vestidos.png" alt="" class="newimg" />
-                <h3 class="newtitle">Vestidos y trajes </h3>
-                <span class="newsubtitle">Eventos y Festividades</span>
-                <div class="newprices">
-                </div>
-              </div>
-              <div class="newcontent swiper-slide">
-                <div class="newtag">Cotiza</div>
-                <img src="img/conjunto.png" alt="" class="newimg" />
-                <h3 class="newtitle">Uniformes Antifluidos</h3>
-                <span class="newsubtitle">Dotaciones</span>
-                <div class="newprices">
-                </div>
-              </div>
-              <div class="newcontent swiper-slide">
-                <div class="newtag">Cotiza</div>
-                <img src="img/rco.png" alt="" class="newimg" />
-                <h3 class="newtitle">Estampados</h3>
-                <span class="newsubtitle">Para mug y prendas</span>
-                <div class="newprices">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+</section>
 
-      <!--CORREO-->
+<!-- home section ends -->
 
-      <section class="section newsletter">
-        <div class="newslc container">
-          <h2 class="sectiontitle">!El estilo no tiene reglas, las creas tú!</h2>
-          <p class="newsld">Escribe un asunto, Dejanos tu nombre, teléfono y en lo que estás interesado y nosotros nos comunicaremos contigo</p>
-          <form action="mailto:Ccatherinegarciat@gmail.com?body=Buen%20d%C3%ADa%20estoy%20interesado%20en%20un%20servicio%20de%20confecciones%20o%20estampados%20de%20JNC%2C%20agradezco%20te%20puedas%20contactar%20conmigo%20y%20brindarme%20m%C3%A1s%20informaci%C3%B3n" class="newslf">
-            <button class="button2">Envíar email</button>
-          </form>
-        </div>
-      </section>
-    </main>
-    <!--FOOTER-->
-    <footer class="footer section">
-      <div class="footercontainer container grid">
-        <div class="footercontent">
-          <a href="#" class="footerL">
-            <img src="img/favicon2.png" alt="" class="footerL-img" />
-            DIEÑO DE MODAS Y ESTAMPADOS JNC
-          </a>
+<!-- service sectioin starts  -->
 
-          <p class="footerdescription">
-            Se parte de esta familia, <br /> 
-            No esperes y escoge Ropa única para personas únicas!
-          </p>
+<section class="service">
 
-          <div class="footersocial">
-            <a href="mailto:Ccatherinegarciat@gmail.com?body=Buen%20d%C3%ADa%20estoy%20interesado%20en%20un%20servicio%20de%20confecciones%20o%20estampados%20de%20JNC%2C%20agradezco%20te%20puedas%20contactar%20conmigo%20y%20brindarme%20m%C3%A1s%20informaci%C3%B3n" target="_blank" class="footersocial-link">
-              <i class="bx bxl-gmail"></i>
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=+573138149514&text=Buen%20d%C3%ADa%20estoy%20interesado%20en%20cofecciones%20o%20estampados%20de%20JNC,%20agradezco%20te%20puedas%20comunicar%20conmigo%20para%20m%C3%A1s%20informaci%C3%B3n.%20" target="_blank" class="footersocial-link">
-              <i class="bx bxl-whatsapp"></i>
-            </a>
-            <a href="https://www.facebook.com/katemoda1" target="_blank" class="footersocial-link">
-              <i class="bx bxl-facebook"></i>
-            </a>
-          </div>
-        </div>
+   <div class="box" data-aos="fade-up" data-aos-delay="300">
+      <i class="fas fa-shipping-fast"></i>
+      <h3>Rapida respuesta</h3>
+      <p>Llegamos rapido al destino establecido por el usuario.</p>
+   </div>
 
-        <div class="footercontent">
-          <h3 class="footertitle">Servicios</h3>
-          <ul class="footerlinks">
-            <li>
-              <a href="#" class="footerlink">Para cualquier persona, sea niño, niña o adulto</a>
-            </li>
-            <li>
-              <a href="#" class="footerlink">Cualquier evento o festividad</a>
-            </li>
-            <li>
-              <a href="#" class="footerlink">Para cualquier empresa o profesión</a>
-            </li>
-          </ul>
-        </div>
+   <div class="box" data-aos="fade-up" data-aos-delay="450">
+      <i class="fas fa-headset"></i>
+      <h3>Soporte 24/7</h3>
+      <p>Estamos en constante comunicacion contigo.</p>
+   </div>
 
-        <div class="footercontent">
-          <h3 class="footertitle">Horarios: </h3>
-          <ul class="footerlinks">
-            <li>
-              <a href="#" class="footerlink">Toda la semana</a>
-            </li>
-            <li>
-              <a href="#" class="footerlink">24 horas al día</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footercontent">
-          <h3 class="footertitle"> Comunícate con nosotros</h3>
-          <ul class="footerlinks">
-            <li>
-              <a href="mailto:Ccatherinegarciat@gmail.com?body=Buen%20d%C3%ADa%20estoy%20interesado%20en%20un%20servicio%20de%20confecciones%20o%20estampados%20de%20JNC%2C%20agradezco%20te%20puedas%20contactar%20conmigo%20y%20brindarme%20m%C3%A1s%20informaci%C3%B3n" class="footerlink">Correo</a>
-            </li>
-            <li>
-              <a href="https://api.whatsapp.com/send?phone=+573138149514&text=Buen%20d%C3%ADa%20estoy%20interesado%20en%20cofecciones%20o%20estampados%20de%20JNC,%20agradezco%20te%20puedas%20comunicar%20conmigo%20para%20m%C3%A1s%20informaci%C3%B3n.%20" class="footerlink">Whatsapp</a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/katemoda1" class="footerlink">Facebook</a>
-            </li>
-          </ul>
-        </div>
+</section>
+
+<!-- service sectioin ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <img src="images/title-img.png" alt="">
+      <h3>Nuestros productos</h3>
+   </div>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="fade-up" data-aos-delay="150">
+         <img src="images/product-1.png" alt="">
+         <div class="content">
+            <h3>Ropa interior</h3>
+            <a href="#contact" class="btn">Cotiza</a>
+         </div>
       </div>
 
-      <span class="footercopy">@JNC2022</span>
-    </footer>
+      <div class="box" data-aos="fade-up" data-aos-delay="300">
+         <img src="images/product-2.png" alt="">
+         <div class="content">
+            <h3>brochas de maquillaje</h3>
+            <a href="#contact" class="btn">Cotiza</a>
+         </div>
+      </div>
 
-    <!--FOOTER-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="bx bx-up-arrow-alt scrollupicon"></i>
-    </a>
+      <div class="box" data-aos="fade-up" data-aos-delay="450">
+         <img src="images/product-3.png" alt="">
+         <div class="content">
+            <h3>Paletas</h3>
+            <a href="#contact" class="btn">Cotiza</a>
+         </div>
+      </div>
 
-    <!--JAVASCRIPT-->
-    <script src="js/scrollreveal.min.js"></script>
+      <div class="box" data-aos="fade-up" data-aos-delay="600">
+         <img src="images/product-4.png" alt="">
+         <div class="content">
+            <h3>Perfumería</h3>
+            <a href="#contact" class="btn">Cotiza</a>
+         </div>
+      </div>
 
-    <script src="js/swiper-bundle.min.js"></script>
+      <div class="box" data-aos="fade-up" data-aos-delay="750">
+         <img src="images/product-5.png" alt="">
+         <div class="content">
+            <h3>Maletines para maquillaje</h3>
+            <a href="#contact" class="btn">Cotiza</a>
+         </div>
+      </div>
 
-    <script src="js/main.js"></script>
-  </body>
+      <div class="box" data-aos="fade-up" data-aos-delay="900">
+         <img src="images/product-6.png" alt="">
+         <div class="content">
+            <h3>Productos para el cuidado de la piel</h3>
+            <a href="#contact" class="btn">Cotiza</a>
+         </div>
+      </div>
+      
+   </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="image" data-aos="fade-right" data-aos-delay="150">
+      <img src="images/about-img.png" alt="">
+   </div>
+
+   <div class="content" data-aos="fade-left" data-aos-delay="300">
+      <h3 class="title">Entra en el paraiso de la belleza, siguiendo solo 3 pasos:</h3>
+      <p>1. Dirigete al apartado de contacto</p>
+      <p>2. Registra los datos personales, el producto o servicio a comprar y detalles del mismo</p>
+      <p>3. Esperanos, en minutos nos comunicaremos contigo</p>
+      <div class="icons">
+         <h3> <i class="fas fa-check"></i> Mejores precios </h3>
+         <h3> <i class="fas fa-check"></i> Excelente servicios </h3>
+         <h3> <i class="fas fa-check"></i> Productos de alta calidad </h3>
+         <h3> <i class="fas fa-check"></i> Confianza </h3>
+         <h3> <i class="fas fa-check"></i> Atencion personalizada </h3>
+         <h3> <i class="fas fa-check"></i> Ofrecemos garantias, en nuestros productos y servicios </h3>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+   <div class="heading">
+      <img src="images/title-img.png" alt="">
+      <h3>Servicios</h3>
+   </div>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="fade-up" data-aos-delay="150">
+         <img src="images/pic-1.png" alt="">
+         <h3>Servicio #1</h3>
+         <p>Limpieza y masaje facial de acuerdo a patologia.</p>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="300">
+         <img src="images/pic-2.png" alt="">
+         <h3>Servicio #2</h3>
+         <p>Masajes corporales, posoperatorios y reductores con instrumentaria. </p>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="450">
+         <img src="images/pic-3.png" alt="">
+         <h3>Servicio #3</h3>
+         <p>Maquillaje para cuaquier evento o festividad.</p>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="450">
+         <img src="images/pic-31.png" alt="">
+         <h3>Servicio #4</h3>
+         <p>Pestañas, Cejas.</p>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="450">
+         <img src="images/pic-32.png" alt="">
+         <h3>Servicio #5</h3>
+         <p>Peluqueria, Barberia, Peinados</p>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="450">
+         <img src="images/pic-33.png" alt="">
+         <h3>Servicio #6</h3>
+         <p>Uñas</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- reviews section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <div class="heading">
+      <img src="images/title-img.png" alt="">
+      <h3>contacto</h3>
+   </div>
+
+   <div class="row">
+
+      <iframe data-aos="fade-up" data-aos-delay="150" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127233.57738406322!2d-74.15303420243143!3d4.761432958602182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f84509d700417%3A0xc7cd69e940f94f14!2zU3ViYSwgQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1673980830148!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy"></iframe>
+      <div class="form">
+
+         <div class="icons-container">
+
+
+            <div class="icons" data-aos="fade-up" data-aos-delay="300">
+               <i class="fas fa-envelope"></i>
+               <h3>email :</h3>
+               <p>lusan042023@gmail.com</p>
+            </div>
+
+            <div class="icons" data-aos="fade-up" data-aos-delay="450">
+               <i class="fas fa-phone"></i>
+               <h3>Telefono:</h3>
+               <p>312-5622408</p>
+               <p>302-4590657</p>
+            </div>
+            
+         </div>
+
+         <form action="https://formsubmit.co/96a3eb9fb216ce3963c075666b9b2f08" method="POST">
+            <input type="text" name = "Nombre" placeholder="Nombre" class="box" required>
+            <input type="number" name = "Telefono" placeholder="Telefono" class="box" required>
+            <input type="text" name = "Producto o servicio" placeholder="Producto o servicio" class="box" required>
+            <textarea name="Mensaje" placeholder="Descripcion del servicio, referencia del producto, preguntas o solicitudes" class="box" id="" cols="30" rows="10"required></textarea>
+            <button type="submit" class="btn">Envia</button> 
+         </form>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <img src="images/title-img.png" alt="">
+      <h3>Blogs</h3>
+   </div>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="fade-up" data-aos-delay="150">
+         <div class="image">
+            <img src="images/blog-1.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Pestañas saludables y hermosas</h3>
+            <p>consejos para el cuidado de tus pestañas</p>
+            <a href="https://www.farmacias1000.com/blog/consejos-para-el-cuidado-de-tus-pestanas/" class="btn">Link</a>
+         </div>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="300">
+         <div class="image">
+            <img src="images/blog-2.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>¿estas comiendo, bien?</h3>
+            <p>Te enviamos consejos para una alimentacion saludable</p>
+            <a href="https://www.cdc.gov/nccdphp/dnpao/features/healthy-eating-tips/index-es.html" class="btn">Link</a>
+         </div>
+      </div>
+
+      <div class="box" data-aos="fade-up" data-aos-delay="450">
+         <div class="image">
+            <img src="images/blog-3.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Tendencias en productos de maquillaje</h3>
+            <p>Conoce tendencias en todo lo relacionado al maquillaje.</p>
+            <a href="https://www.cosmopolitan.com/es/belleza/maquillaje/g38539195/tendencias-maquillaje/" class="btn">link</a>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="links">
+      <a href="#home" class="btn">Inicio</a>
+      <a href="#menu" class="btn">Productos</a>
+      <a href="#about" class="btn">Nosotros</a>
+      <a href="#reviews" class="btn">Servicios</a>
+      <a href="#contact" class="btn">contacto</a>
+      <a href="#blogs" class="btn">blogs</a>
+   </div>
+
+   <p class="credit"> created by <span>Lusan</span>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link      -->
+<script src="js/script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+AOS.init({
+   duration: 800,
+});
+
+</script>
+    
+</body>
 </html>
